@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99779F981A6A716900965706 /* android.html in Resources */ = {isa = PBXBuildFile; fileRef = 99779F971A6A716900965706 /* android.html */; };
 		99B19EA71A67E77900FA69CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B19EA61A67E77900FA69CC /* Foundation.framework */; };
 		99B19EA91A67E77900FA69CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B19EA81A67E77900FA69CC /* CoreGraphics.framework */; };
 		99B19EAB1A67E77900FA69CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B19EAA1A67E77900FA69CC /* UIKit.framework */; };
@@ -19,12 +18,12 @@
 		99B19EC81A67E77A00FA69CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B19EAA1A67E77900FA69CC /* UIKit.framework */; };
 		99B19ED01A67E77A00FA69CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99B19ECE1A67E77A00FA69CC /* InfoPlist.strings */; };
 		99B19ED21A67E77A00FA69CC /* TeamplateProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B19ED11A67E77A00FA69CC /* TeamplateProjectTests.m */; };
-		99B19EEE1A67E88A00FA69CC /* QSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B19EDD1A67E88A00FA69CC /* QSAppDelegate.m */; };
-		99B19EEF1A67E88A00FA69CC /* QSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B19EE71A67E88A00FA69CC /* QSViewController.m */; };
-		99B19EF01A67E88A00FA69CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B19EED1A67E88A00FA69CC /* Main.storyboard */; };
-		99B19EF31A67E8B100FA69CC /* QSBaseControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B19EF21A67E8B100FA69CC /* QSBaseControllers.m */; };
-		99B19EF61A67E8CA00FA69CC /* QSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B19EF51A67E8CA00FA69CC /* QSBaseModel.m */; };
-		99B19EF91A67E8DC00FA69CC /* QSBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B19EF81A67E8DC00FA69CC /* QSBaseView.m */; };
+		99C261F81A7A22D30070CCCC /* QSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C261E41A7A22D30070CCCC /* QSAppDelegate.m */; };
+		99C261F91A7A22D30070CCCC /* QSBaseViewController+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C261EB1A7A22D30070CCCC /* QSBaseViewController+Model.m */; };
+		99C261FA1A7A22D30070CCCC /* QSBaseViewController+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C261ED1A7A22D30070CCCC /* QSBaseViewController+View.m */; };
+		99C261FB1A7A22D30070CCCC /* QSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C261EF1A7A22D30070CCCC /* QSBaseViewController.m */; };
+		99C261FC1A7A22D30070CCCC /* QSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C261F11A7A22D30070CCCC /* QSViewController.m */; };
+		99C261FD1A7A22D30070CCCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C261F51A7A22D30070CCCC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		99779F971A6A716900965706 /* android.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = android.html; sourceTree = "<group>"; };
 		99B19EA31A67E77900FA69CC /* TeamplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B19EA61A67E77900FA69CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99B19EA81A67E77900FA69CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,17 +51,17 @@
 		99B19ECD1A67E77A00FA69CC /* TeamplateProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeamplateProjectTests-Info.plist"; sourceTree = "<group>"; };
 		99B19ECF1A67E77A00FA69CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99B19ED11A67E77A00FA69CC /* TeamplateProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamplateProjectTests.m; sourceTree = "<group>"; };
-		99B19EDC1A67E88A00FA69CC /* QSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSAppDelegate.h; sourceTree = "<group>"; };
-		99B19EDD1A67E88A00FA69CC /* QSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSAppDelegate.m; sourceTree = "<group>"; };
-		99B19EE61A67E88A00FA69CC /* QSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSViewController.h; sourceTree = "<group>"; };
-		99B19EE71A67E88A00FA69CC /* QSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSViewController.m; sourceTree = "<group>"; };
-		99B19EED1A67E88A00FA69CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		99B19EF11A67E8B100FA69CC /* QSBaseControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBaseControllers.h; sourceTree = "<group>"; };
-		99B19EF21A67E8B100FA69CC /* QSBaseControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBaseControllers.m; sourceTree = "<group>"; };
-		99B19EF41A67E8CA00FA69CC /* QSBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBaseModel.h; sourceTree = "<group>"; };
-		99B19EF51A67E8CA00FA69CC /* QSBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBaseModel.m; sourceTree = "<group>"; };
-		99B19EF71A67E8DC00FA69CC /* QSBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBaseView.h; sourceTree = "<group>"; };
-		99B19EF81A67E8DC00FA69CC /* QSBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBaseView.m; sourceTree = "<group>"; };
+		99C261E31A7A22D30070CCCC /* QSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSAppDelegate.h; sourceTree = "<group>"; };
+		99C261E41A7A22D30070CCCC /* QSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSAppDelegate.m; sourceTree = "<group>"; };
+		99C261EA1A7A22D30070CCCC /* QSBaseViewController+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QSBaseViewController+Model.h"; sourceTree = "<group>"; };
+		99C261EB1A7A22D30070CCCC /* QSBaseViewController+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QSBaseViewController+Model.m"; sourceTree = "<group>"; };
+		99C261EC1A7A22D30070CCCC /* QSBaseViewController+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QSBaseViewController+View.h"; sourceTree = "<group>"; };
+		99C261ED1A7A22D30070CCCC /* QSBaseViewController+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QSBaseViewController+View.m"; sourceTree = "<group>"; };
+		99C261EE1A7A22D30070CCCC /* QSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBaseViewController.h; sourceTree = "<group>"; };
+		99C261EF1A7A22D30070CCCC /* QSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBaseViewController.m; sourceTree = "<group>"; };
+		99C261F01A7A22D30070CCCC /* QSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSViewController.h; sourceTree = "<group>"; };
+		99C261F11A7A22D30070CCCC /* QSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSViewController.m; sourceTree = "<group>"; };
+		99C261F51A7A22D30070CCCC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,13 +121,13 @@
 		99B19EAC1A67E77900FA69CC /* TeamplateProject */ = {
 			isa = PBXGroup;
 			children = (
-				99B19EDB1A67E88A00FA69CC /* Apps */,
-				99B19EDE1A67E88A00FA69CC /* Entitys */,
-				99B19EDF1A67E88A00FA69CC /* Helpers */,
-				99B19EE01A67E88A00FA69CC /* Libs */,
-				99B19EE11A67E88A00FA69CC /* ModelViewControllers */,
-				99B19EE81A67E88A00FA69CC /* Resources */,
 				99B19EBE1A67E77900FA69CC /* Images.xcassets */,
+				99C261E21A7A22D30070CCCC /* 01-Apps */,
+				99C261E51A7A22D30070CCCC /* 02-Libs */,
+				99C261E61A7A22D30070CCCC /* 03-Helpers */,
+				99C261E71A7A22D30070CCCC /* 04-Entitys */,
+				99C261E81A7A22D30070CCCC /* 05-ViewControllers */,
+				99C261F21A7A22D30070CCCC /* 06-Resources */,
 				99B19EAD1A67E77900FA69CC /* Supporting Files */,
 			);
 			path = TeamplateProject;
@@ -164,122 +162,97 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		99B19EDB1A67E88A00FA69CC /* Apps */ = {
+		99C261E21A7A22D30070CCCC /* 01-Apps */ = {
 			isa = PBXGroup;
 			children = (
-				99B19EDC1A67E88A00FA69CC /* QSAppDelegate.h */,
-				99B19EDD1A67E88A00FA69CC /* QSAppDelegate.m */,
+				99C261E31A7A22D30070CCCC /* QSAppDelegate.h */,
+				99C261E41A7A22D30070CCCC /* QSAppDelegate.m */,
 			);
-			path = Apps;
+			path = "01-Apps";
 			sourceTree = "<group>";
 		};
-		99B19EDE1A67E88A00FA69CC /* Entitys */ = {
+		99C261E51A7A22D30070CCCC /* 02-Libs */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Entitys;
+			path = "02-Libs";
 			sourceTree = "<group>";
 		};
-		99B19EDF1A67E88A00FA69CC /* Helpers */ = {
+		99C261E61A7A22D30070CCCC /* 03-Helpers */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Helpers;
+			path = "03-Helpers";
 			sourceTree = "<group>";
 		};
-		99B19EE01A67E88A00FA69CC /* Libs */ = {
+		99C261E71A7A22D30070CCCC /* 04-Entitys */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Libs;
+			path = "04-Entitys";
 			sourceTree = "<group>";
 		};
-		99B19EE11A67E88A00FA69CC /* ModelViewControllers */ = {
+		99C261E81A7A22D30070CCCC /* 05-ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				99779F971A6A716900965706 /* android.html */,
-				99B19EE21A67E88A00FA69CC /* BaseMVC */,
-				99B19EE61A67E88A00FA69CC /* QSViewController.h */,
-				99B19EE71A67E88A00FA69CC /* QSViewController.m */,
+				99C261E91A7A22D30070CCCC /* 00-BaseViewController */,
+				99C261F01A7A22D30070CCCC /* QSViewController.h */,
+				99C261F11A7A22D30070CCCC /* QSViewController.m */,
 			);
-			path = ModelViewControllers;
+			path = "05-ViewControllers";
 			sourceTree = "<group>";
 		};
-		99B19EE21A67E88A00FA69CC /* BaseMVC */ = {
+		99C261E91A7A22D30070CCCC /* 00-BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				99B19EE31A67E88A00FA69CC /* BaseController */,
-				99B19EE41A67E88A00FA69CC /* BaseModel */,
-				99B19EE51A67E88A00FA69CC /* BaseView */,
+				99C261EA1A7A22D30070CCCC /* QSBaseViewController+Model.h */,
+				99C261EB1A7A22D30070CCCC /* QSBaseViewController+Model.m */,
+				99C261EC1A7A22D30070CCCC /* QSBaseViewController+View.h */,
+				99C261ED1A7A22D30070CCCC /* QSBaseViewController+View.m */,
+				99C261EE1A7A22D30070CCCC /* QSBaseViewController.h */,
+				99C261EF1A7A22D30070CCCC /* QSBaseViewController.m */,
 			);
-			path = BaseMVC;
+			path = "00-BaseViewController";
 			sourceTree = "<group>";
 		};
-		99B19EE31A67E88A00FA69CC /* BaseController */ = {
+		99C261F21A7A22D30070CCCC /* 06-Resources */ = {
 			isa = PBXGroup;
 			children = (
-				99B19EF11A67E8B100FA69CC /* QSBaseControllers.h */,
-				99B19EF21A67E8B100FA69CC /* QSBaseControllers.m */,
+				99C261F31A7A22D30070CCCC /* 01-Assets */,
+				99C261F41A7A22D30070CCCC /* 02-StoryBoards */,
+				99C261F61A7A22D30070CCCC /* 03-HTML */,
+				99C261F71A7A22D30070CCCC /* 04-DataBases */,
 			);
-			path = BaseController;
+			path = "06-Resources";
 			sourceTree = "<group>";
 		};
-		99B19EE41A67E88A00FA69CC /* BaseModel */ = {
+		99C261F31A7A22D30070CCCC /* 01-Assets */ = {
 			isa = PBXGroup;
 			children = (
-				99B19EF41A67E8CA00FA69CC /* QSBaseModel.h */,
-				99B19EF51A67E8CA00FA69CC /* QSBaseModel.m */,
 			);
-			path = BaseModel;
+			path = "01-Assets";
 			sourceTree = "<group>";
 		};
-		99B19EE51A67E88A00FA69CC /* BaseView */ = {
+		99C261F41A7A22D30070CCCC /* 02-StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
-				99B19EF71A67E8DC00FA69CC /* QSBaseView.h */,
-				99B19EF81A67E8DC00FA69CC /* QSBaseView.m */,
+				99C261F51A7A22D30070CCCC /* Main.storyboard */,
 			);
-			path = BaseView;
+			path = "02-StoryBoards";
 			sourceTree = "<group>";
 		};
-		99B19EE81A67E88A00FA69CC /* Resources */ = {
+		99C261F61A7A22D30070CCCC /* 03-HTML */ = {
 			isa = PBXGroup;
 			children = (
-				99B19EE91A67E88A00FA69CC /* Assets */,
-				99B19EEA1A67E88A00FA69CC /* DataBases */,
-				99B19EEB1A67E88A00FA69CC /* HTML */,
-				99B19EEC1A67E88A00FA69CC /* StoryBoards */,
 			);
-			path = Resources;
+			path = "03-HTML";
 			sourceTree = "<group>";
 		};
-		99B19EE91A67E88A00FA69CC /* Assets */ = {
+		99C261F71A7A22D30070CCCC /* 04-DataBases */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		99B19EEA1A67E88A00FA69CC /* DataBases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataBases;
-			sourceTree = "<group>";
-		};
-		99B19EEB1A67E88A00FA69CC /* HTML */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HTML;
-			sourceTree = "<group>";
-		};
-		99B19EEC1A67E88A00FA69CC /* StoryBoards */ = {
-			isa = PBXGroup;
-			children = (
-				99B19EED1A67E88A00FA69CC /* Main.storyboard */,
-			);
-			path = StoryBoards;
+			path = "04-DataBases";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,8 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99779F981A6A716900965706 /* android.html in Resources */,
-				99B19EF01A67E88A00FA69CC /* Main.storyboard in Resources */,
+				99C261FD1A7A22D30070CCCC /* Main.storyboard in Resources */,
 				99B19EBF1A67E77900FA69CC /* Images.xcassets in Resources */,
 				99B19EB11A67E77900FA69CC /* InfoPlist.strings in Resources */,
 			);
@@ -381,12 +353,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B19EF61A67E8CA00FA69CC /* QSBaseModel.m in Sources */,
-				99B19EF31A67E8B100FA69CC /* QSBaseControllers.m in Sources */,
-				99B19EEF1A67E88A00FA69CC /* QSViewController.m in Sources */,
-				99B19EEE1A67E88A00FA69CC /* QSAppDelegate.m in Sources */,
+				99C261FC1A7A22D30070CCCC /* QSViewController.m in Sources */,
+				99C261F81A7A22D30070CCCC /* QSAppDelegate.m in Sources */,
 				99B19EB31A67E77900FA69CC /* main.m in Sources */,
-				99B19EF91A67E8DC00FA69CC /* QSBaseView.m in Sources */,
+				99C261FA1A7A22D30070CCCC /* QSBaseViewController+View.m in Sources */,
+				99C261FB1A7A22D30070CCCC /* QSBaseViewController.m in Sources */,
+				99C261F91A7A22D30070CCCC /* QSBaseViewController+Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  QSBaseView.h
+//  QSViewController.h
 //  TeamplateProject
 //
 //  Created by thuydd on 1/15/15.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface QSBaseView : UIView
+@interface QSViewController : UIViewController <UIWebViewDelegate>
 
 @end

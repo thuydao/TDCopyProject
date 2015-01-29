@@ -23,6 +23,7 @@
 		9961F8611A67E6D4007EFAE8 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9961F8581A67E6D4007EFAE8 /* unzip.c */; };
 		9961F8621A67E6D4007EFAE8 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9961F85A1A67E6D4007EFAE8 /* zip.c */; };
 		9961F8631A67E6D4007EFAE8 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F85D1A67E6D4007EFAE8 /* SSZipArchive.m */; };
+		99C261D21A7A1DD10070CCCC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 99C261D11A7A1DD10070CCCC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		9961F85B1A67E6D4007EFAE8 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		9961F85C1A67E6D4007EFAE8 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
 		9961F85D1A67E6D4007EFAE8 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		99C261D11A7A1DD10070CCCC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		992ADC8F1A6658DD005BAADC = {
 			isa = PBXGroup;
 			children = (
+				99C261D11A7A1DD10070CCCC /* README.md */,
 				9961F8491A67A4E2007EFAE8 /* libz.1.1.3.dylib */,
 				9961F8471A67A338007EFAE8 /* IOKit.framework */,
 				9961F8451A67A300007EFAE8 /* CoreFoundation.framework */,
@@ -292,6 +295,7 @@
 				9961F85F1A67E6D4007EFAE8 /* ioapi.c in Sources */,
 				9961F8631A67E6D4007EFAE8 /* SSZipArchive.m in Sources */,
 				9961F8621A67E6D4007EFAE8 /* zip.c in Sources */,
+				99C261D21A7A1DD10070CCCC /* README.md in Sources */,
 				992ADC9F1A6658DE005BAADC /* AppDelegate.m in Sources */,
 				9961F8601A67E6D4007EFAE8 /* mztools.c in Sources */,
 			);
