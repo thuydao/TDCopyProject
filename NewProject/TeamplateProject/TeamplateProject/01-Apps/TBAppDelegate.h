@@ -1,5 +1,5 @@
 //
-//  QSViewController.h
+//  QSAppDelegate.h
 //  TeamplateProject
 //
 //  Created by thuydd on 1/15/15.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MediaPlayer/MediaPlayer.h>
 
-@interface QSViewController : UIViewController <UIWebViewDelegate>
+@interface TBAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

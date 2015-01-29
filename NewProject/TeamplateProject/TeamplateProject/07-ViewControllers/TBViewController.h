@@ -1,5 +1,5 @@
 //
-//  QSAppDelegate.h
+//  QSViewController.h
 //  TeamplateProject
 //
 //  Created by thuydd on 1/15/15.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TDEngineLog.h"
 
-@interface QSAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface TBViewController : UIViewController
 
 @end

@@ -1,13 +1,13 @@
 //
-//  QSBaseViewController+Model.m
+//  QSBaseViewController.m
 //  TeamplateProject
 //
 //  Created by thuydd on 1/29/15.
 //  Copyright (c) 2015 Qsoft. All rights reserved.
 //
 
-#import "QSBaseViewController+Model.h"
+#import "TBBaseViewController.h"
 
-@implementation QSBaseViewController (Model)
+@implementation TBBaseViewController
 
 @end

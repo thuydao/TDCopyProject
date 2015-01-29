@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Qsoft. All rights reserved.
 //
 
-#import "QSAppDelegate.h"
+#import "TBAppDelegate.h"
 
-@implementation QSAppDelegate
+@implementation TBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     return YES;
