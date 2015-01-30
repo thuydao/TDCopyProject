@@ -7,10 +7,12 @@
 //
 
 #import "TBAppDelegate.h"
+#import "TDReachability.h"
 
 @implementation TBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [TDReachability shared];
     return YES;
 }
 

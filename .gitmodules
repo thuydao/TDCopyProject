@@ -7,3 +7,12 @@
 [submodule "NewProject/TeamplateProject/TeamplateProject/03-TBCore/TDEngineLog"]
 	path = NewProject/TeamplateProject/TeamplateProject/03-TBCore/TDEngineLog
 	url = https://github.com/thuydao/TDEngineLog.git
+[submodule "NewProject/TeamplateProject/TeamplateProject/03-TBCore/TBServices"]
+	path = NewProject/TeamplateProject/TeamplateProject/03-TBCore/TBServices
+	url = https://github.com/thuydao/TBServices.git
+[submodule "NewProject/TeamplateProject/TeamplateProject/03-TBCore/TBCategory"]
+	path = NewProject/TeamplateProject/TeamplateProject/03-TBCore/TBCategory
+	url = https://github.com/thuydao/TBCategory.git
+[submodule "NewProject/TeamplateProject/TeamplateProject/03-TBCore/TBUtils"]
+	path = NewProject/TeamplateProject/TeamplateProject/03-TBCore/TBUtils
+	url = https://github.com/thuydao/TBUtils.git
